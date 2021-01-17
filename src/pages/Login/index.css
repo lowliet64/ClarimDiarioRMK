@@ -1,0 +1,40 @@
+.container-form{
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    min-width: 200px;
+    padding:5px
+}
+
+
+
+.form-input-field{
+    border:none;
+    border-bottom: solid orange 1px;
+
+
+}
+
+
+.custom-buttom{
+  
+    width: 200px;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-color:black;
+}
+
+.submit-button{
+    margin-top: 5px;
+    height: 30px;
+    border-style: solid;
+    width: 150px;
+    color:white;
+    background-color:blue;
+    border-color: blue;
+    margin-right: 10px;
+}

@@ -1,0 +1,8 @@
+.article-mini-card{
+    box-shadow: 0 0 1em #FF8C00;
+    border-style: solid;
+    border-color: #FF8C00 ;
+    display: inline-block;
+    margin-left:200px;
+    margin-top:10px
+}

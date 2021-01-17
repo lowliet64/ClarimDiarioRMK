@@ -1,0 +1,76 @@
+.header-box{
+    background-color: white;
+    width: 100vw;
+    height:65px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+
+    border-bottom:solid orange 2px;
+}
+/* styles for search box*/
+
+.search-box{
+    margin-top: 5px;
+}
+.search-input{
+    width: 300px;
+    padding-left: 0;
+    border-style: solid;
+    border-color:  #FF8C00;
+    border-right:none;
+    height: 30px;
+}
+.search-button{
+    height: 34px;
+    width: 50px;
+    padding-left: 0;
+    border-style: solid;
+    border-color: #FF8C00;
+    background-color: white;
+    border-left:none;
+   
+}
+.search-image{
+    height: 12px;
+}
+.custom-buttom{
+  
+    width: 200px;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-color:black;
+}
+
+.login-button{
+    height: 30px;
+    border-style: solid;
+    width: 150px;
+    color:#FF8C00;
+    background-color: white;
+    border-color: #FF8C00;
+    margin-right: 10px;
+}
+
+.register-button{
+    height: 30px;
+    border-style: solid;
+    width: 150px;
+    border-style: solid;
+    background-color: #FF8C00;
+    border-color:  #FF8C00;
+    color:white
+
+}
+
+img.logo-header-image{
+    height:50px;
+    margin-left: 10px;
+}
+
+.actions-box{
+    margin-right: 30px;
+
+}
