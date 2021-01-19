@@ -15,19 +15,19 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
         ) : (
                 <Redirect to="/login" />
             )
-
     }
 
     />
 );
+
 function Routes() {
     return (
         <BrowserRouter>
             <Route path='/' exact component={Landing} />
-            <Route path='/article' component={EditorComponent} />
             <Route path='/register' component={Register} />
             <Route path='/login' component={Login} />
             <PrivateRoute path='/user/profile' component={UserProfile} />
+            <PrivateRoute path='/article' component={EditorComponent} />
         </BrowserRouter>
     )
 }
